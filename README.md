@@ -1,12 +1,12 @@
 # MSDocMaker
 A sample code for make microsoft word document bases on freemaker.
 
-ģ�����ɷ���˵��
+模板做成方法说明
 
-1��ʹ��office2003�����ϰ汾��word�ĵ������½�word�ĵ�������ģ���ļ���
-2������Ϊ->������ʽ->Word 2003 XML�ĵ���
-3��ʹ��tool�ļ����µ�Free XML editor(foxe2.4.2).exe���ߣ��򿪵�����xml�ĵ���
-(ע��xml�ĵ�������Ϊ������Ӣ���֣����߹��߿��ܴ򲻿���)
-4�����Tools->Align����XML�ڵ㡣
-5���滻ģ������ΪfreeMaker��ǩ��
-6���ļ�����Ϊfltģ���ļ���
+1、使用office2003及以上版本打开word文档或者新建word文档，做好模板文件。
+2、另存为->其它格式->Word 2003 XML文档。
+3、使用tool文件夹下的Free XML editor(foxe2.4.2).exe工具，打开导出的xml文档，
+(注意xml文档名必须为不含非英数字，否者工具可能打不开。)
+4、点击Tools->Align对齐XML节点。
+5、替换模板内容为freeMaker标签。
+6、文件另存为flt模板文件。
